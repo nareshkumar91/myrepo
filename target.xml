@@ -1,0 +1,23 @@
+<project name="svnproject" basedir="." default="three">
+
+     <target name="one">
+	       <echo message="this is target one"/>
+	 </target>
+	 
+	
+	<target name="two">
+	    <echo message="thse is target two"/>
+	</target>
+	
+	
+	<target name="three" depends="one,two">
+	    <echo message="thse is target two"/>
+	</target>
+	
+	
+
+
+
+
+
+</project>
